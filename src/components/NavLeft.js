@@ -1,15 +1,25 @@
 import React from "react";
-// import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faPrint } from '@fortawesome/free-solid-svg-icons';
+import { faPaintbrush } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAddressCard } from '@fortawesome/free-solid-svg-icons';
+import { faPaintRoller } from '@fortawesome/free-solid-svg-icons';
+import { faMessage } from '@fortawesome/free-solid-svg-icons';
+
+// import { FaGithub, FaLinkedin } from "reac   t-icons/fa";
 // import { HiOutlineMail } from "react-icons/hi";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
-  const links = [
+  
+    const links = [
     {
       id: 1,
       child: (
         <>
         About Me 
+        <FontAwesomeIcon icon={faAddressCard} />
            {/* <FaLinkedin size={30} /> */}
         </>
       ),
@@ -21,6 +31,7 @@ const SocialLinks = () => {
       child: (
         <>
         Art Sample 
+        <FontAwesomeIcon icon={faPaintRoller} />
            {/* <FaGithub size={30} /> */}
         </>
       ),
@@ -31,6 +42,8 @@ const SocialLinks = () => {
       child: (
         <>
     My Works
+    
+    <FontAwesomeIcon icon={faPaintbrush} />
           {/* <HiOutlineMail size={30} /> */}
         </>
       ),
@@ -41,6 +54,7 @@ const SocialLinks = () => {
       child: (
         <>
          Contact Me
+         <FontAwesomeIcon icon={faMessage} />
           {/* <BsFillPersonLinesFill size={30} /> */}
         </>
       ),
@@ -53,6 +67,7 @@ const SocialLinks = () => {
       child: (
         <>
           Resume 
+          <FontAwesomeIcon icon={faPrint} />
           {/* <BsFillPersonLinesFill size={30} /> */}
         </>
       ),

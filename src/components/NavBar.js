@@ -2,10 +2,9 @@ import React from "react";
 
 const NavBar = () => {
     return (
-        <nav class=" container navbar bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand">Carms</a>
-         
+        <nav class="container-{breakpoint} navbar fixed-top bg-secondary">
+        <div class="container">
+          <a class="navbar-brand text-white">Carms</a>
         </div>
       </nav>
     )

@@ -4,11 +4,15 @@ const BannerSection = () => {
         <section className="container Home-Banner">
             <div className="row ms-5">
                 <div className="col-6">
-                    <div className="Home-text">
+                    <div className="Home-text mt-5">
                     <h1 className="h1">Hi My Name is Carms</h1>
                     <p> I have 2 years of experience creating and desgining graphics and Illustration.
                         Currently, I love to work on character design using application software like
                     Ibispaint, Illustrator, photoshop and canva.</p>
+                    <div className="button-about mt-4">
+                        <button className="btn btn-primary"> View Works</button>
+                        </div>
+                    
                     </div>
                 </div>
                 <div className="col-6">
