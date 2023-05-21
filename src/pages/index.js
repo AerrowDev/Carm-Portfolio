@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <>
     <Head> 
-      
       <title>Carms Portfolio</title>
       
     </Head>

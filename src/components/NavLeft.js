@@ -19,8 +19,8 @@ const SocialLinks = () => {
       child: (
         <>
         About Me 
-        <FontAwesomeIcon icon={faAddressCard} />
-           {/* <FaLinkedin size={30} /> */}
+        <FontAwesomeIcon icon={faAddressCard} size={30}/>
+           {/* <FaLinkedin  /> */}
         </>
       ),
       href: "#",

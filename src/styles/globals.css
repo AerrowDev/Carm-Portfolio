@@ -33,7 +33,7 @@ section {
 } 
 
 .Home-Banner {
-  background-image: url(/assets/img/herobg1.png);
+  /* background-image: url(/assets/img/herobg1.png); */
   background-position: bottom;
   /* background-color: #CDCDCD; */
   background-size: cover;
