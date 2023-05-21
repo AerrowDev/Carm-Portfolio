@@ -1,22 +1,21 @@
 import React from "react";
 const BannerSection = () => {
     return(
-        <section className="container Home-Banner">
-            <div className="row ms-5">
-                <div className="col-6">
-                    <div className="Home-text mt-5">
-                    <h1 className="h1">Hi My Name is Carms</h1>
+        <section className="container Home-Banner bg-cover bg-no-repeat bg-center">
+            <div className="row ms-3">
+                <div className="Home-text col-lg-6 col-md-6 col-sm-12 order-lg-1 order-md-1 order-sm-2">
+                    <div className="Home-text">
+                    <h1 className="banner-title h1 fw-bold ">Hi My Name is Carms</h1>
                     <p> I have 2 years of experience creating and desgining graphics and Illustration.
                         Currently, I love to work on character design using application software like
                     Ibispaint, Illustrator, photoshop and canva.</p>
                     <div className="button-about mt-4">
-                        <button className="btn btn-primary"> View Works</button>
-                        </div>
-                    
+                        <button className="btn btn-primary btn-start"> View Works</button>
+                    </div>
                     </div>
                 </div>
-                <div className="col-6">
-                  <img src="https://scontent.fmnl3-1.fna.fbcdn.net/v/t39.30808-6/222783897_1061854407681120_3411865801675493282_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGewu8kngjV7nb1G0Ibjuw2GvpHeKlA3D0a-kd4qUDcPa3wTi5QU0yGdMNBMynW8QxTyEEKOHuvj5OQTlG5H5x-&_nc_ohc=-V4pKPKv4AkAX84Z5Yz&_nc_zt=23&_nc_ht=scontent.fmnl3-1.fna&oh=00_AfBm5xnATnw0QKiCaimI-SZnizkt_JFKEpyAkSKoQX1iEQ&oe=645163A5" height={500} width={500}/>
+                <div className="col-lg-6 col-md-6 col-sm-12 order-lg-2 order-md-2 order-sm-1">
+                  <img src="/assets/img/heroimg.jpg" height={500} width={500}/>
                 </div>
             </div>
         </section>
